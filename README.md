@@ -1,15 +1,13 @@
 # Assignment 2 - Hotel Booking Application
 
-## Student Information
+## Information
 
 - **Name**: Nadeem Zawaideh
-- **Student ID**: B00946092
 - **Date Created**: 2025-01-24
 
 ## Application Type and Description
 
 Hotel Booking Application
-I have chosen option 1 PHP: Because I am more confortable with Node.js so I want to use PHP for easier assignments
 
 ## Features Implemented
 - Search for Available Rooms: Users can filter rooms based on type.
