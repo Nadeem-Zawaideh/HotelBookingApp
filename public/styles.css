@@ -1,0 +1,139 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Soft subtle gradient */
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #004085;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+form:hover {
+    transform: scale(1.01);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+select, input {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 6px;
+    border: 1.5px solid #007bff;
+    outline: none;
+    width: 80%;
+    max-width: 300px;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 5px #ff6b6b;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #0056b3, #004085);
+    transform: scale(1.03);
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+th {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background: #f1f1f1;
+}
+
+tr:hover {
+    background: #e0e0e0;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff6b6b;
+}
+
+#booking-message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ff6b6b;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
