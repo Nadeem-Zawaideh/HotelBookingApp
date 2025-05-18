@@ -1,4 +1,4 @@
-# Assignment 2 - Hotel Booking Application
+# Hotel Booking Application
 
 ## Information
 
